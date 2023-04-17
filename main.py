@@ -5,7 +5,7 @@ st.title("Profil d'investisseur")
 st.write("Cette application vous permettra de connaître quel type d'investisseur vous êtes.")
 
 q1_options = ['Une personne qui aime parier', 'Une personne qui est prête à prendre des risques après avoir effectué une certaine recherche', 'Une personne prudente', 'Une personne qui évite systématiquement le risque']
-q1 = st.selectbox('Question 1 : En général, comment votre meilleur ami vous décrirait-il en tant que personne qui prend des risques?', q1_options)
+q1 = st.selectbox('Question 1 : n\En général, comment votre meilleur ami vous décrirait-il en tant que personne qui prend des risques?', q1_options)
 q2_options = ['1 000 $ en argent', 'Une chance sur deux de remporter 5 000 $', 'Une chance sur quatre de remporter 10 000 $', 'Une chance sur 20 de remporter 100 000 $']
 q2 = st.selectbox('Question 2 : Vous participez à un jeu-questionnaire télévisé et vous pouvez choisir une option parmi les suivantes. Laquelle prendriez-vous?',q2_options)
 q3_options  = ['Annuler vos vacances', 'Prendre des vacances beaucoup moins coûteuses', 'Partir comme prévu, en vous disant que vous avez besoin de temps pour vous préparer à la recherche d\'un nouvel emploi','Prolonger vos vacances, puisqu il s\'agit peut-être de votre dernière chance de partir en première classe']
