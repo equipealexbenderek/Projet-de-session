@@ -124,7 +124,7 @@ elif(q13 == q13_options[3]):
     total += 4
 
 
-st.write('Votre résultat est de  : ' str(total))
+st.write('Votre résultat est de  : ', str(total))
 
 if total >= 33 :
     st.write('Votre profil d\'investisseur est élevé et vous devriez investir à 30% en revenu fixe et 70% en titre de croissance. Voici dans quelques fonds que vous pourriez investir chez Desjardins : https://www.desjardins.com/particuliers/epargne-placements/fonds-communs-placement/fonds-desjardins/performance/?utm_id=e-gp-0-132972177091&campagne=e-gp-0-132972177091&gclid=CjwKCAjwitShBhA6EiwAq3RqA9fBn7jWPmVUEhn8s82LF2Do38bF-J828jptXJaoUCmzCqlC4_xaZhoCBlMQAvD_BwE&gclsrc=aw.ds')
